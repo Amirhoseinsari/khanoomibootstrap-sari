@@ -1,0 +1,46 @@
+@font-face {
+  font-family: Sahel;
+  src: url("../font/Sahel.eot") format("eot"),
+    url("../font/Sahel.woff") format("woff"),
+    url("../font/Sahel.ttf") format("truetype");
+}
+@font-face {
+  font-family: yekan;
+  src: url("../fonts/iranyekanwebbold.ttf");
+}
+* {
+  font-family: yekan;
+}
+body {
+  direction: rtl;
+}
+/*slider*/
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/*endslider*/
+/* footer  */
+.footer {
+  background-color: rgb(55, 65, 81);
+}
+.elogo > img {
+  background-color: aliceblue;
+}
+/* end of footer  */
